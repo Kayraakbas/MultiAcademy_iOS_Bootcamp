@@ -12,9 +12,6 @@ struct ShaderEffectView: View {
     
     var body: some View {
         ZStack{
-            ScrollView(.vertical){
-                
-            }
             MeshGradient(
                 width: 3,
                 height: 3,
@@ -29,8 +26,6 @@ struct ShaderEffectView: View {
                         .black, .blue, .purple,
                         .black, .green, .purple.mix(with: .blue, by: 0.5),
                     ])
-                        .rotation3DEffect(.degrees(degrees), axis: (x: 0, y: 1, z: 0))
-                        .animation(.easeInOut(duration: 2.8), value: degrees)
         }
     }
 }
