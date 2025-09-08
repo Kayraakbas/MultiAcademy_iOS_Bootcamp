@@ -11,7 +11,7 @@ import SwiftUI
 struct MultiAcademy_iOS_Bootcamp_5App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskView()
         }
     }
 }
