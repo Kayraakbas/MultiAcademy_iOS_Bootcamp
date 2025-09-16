@@ -69,7 +69,7 @@ struct ContentView: View {
                     }
                 }
             }
-            
+          
             Text("")
                 .navigationTitle("prova")
                 .toolbar {
